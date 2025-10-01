@@ -147,7 +147,7 @@
   padding-right: 40px;
 }
 
-.btn-layout > span {
+.btn-layout > .btn-layout-icon {
   width: 13px;
   position: absolute;
   right: 0;

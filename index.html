@@ -29,35 +29,26 @@
 
 
     <main>
-
-
-
-
-
         <section class="main-header ">
             <canvas id="netCanvas" style="position: absolute; top: 0; left: 0; height: 550px; width: 100%;"></canvas>
-
-
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-8 ">
                         <p class="mb-0 text-decoration-underline"
                             style="font-weight: 1000; font-size: 80px; line-height: 0.9;">Web Developer</p>
 
-                        <p class="fs-1 fw-semibold mb-0">Nguyễn Đình Kha</p>
+                        <p class="fs-1 fw-semibold mb-0">Nguyen Dinh Kha</p>
 
                         <p class="typewriter fs-5 ">
-                            Tôi là <span id="type-target"
+                            <span data-translate="i_am">I am</span> <span id="type-target"
                                 class="fw-semibold fs-4 text-decoration-underline"></span><span id="cursor"
                                 class="text-secondary fs-4">|</span>
                         </p>
 
-                        <p class=" rounded p-1">Tôi là một lập trình viên Web với nền tảng vững về Laravel (Backend) và Vue/Nuxt (Frontend). Tôi yêu thích việc xây dựng sản phẩm thực tế, tối ưu trải nghiệm người dùng và mang lại giá trị cho doanh nghiệp.
-
-                        </p>
+                        <p class=" rounded p-1" data-translate="intro_text">As a recent web developer graduate, I have a great passion for building modern and effective web applications. With a fast-learning ability, I am always ready to learn and apply new technologies to develop myself and create quality products. My goal is to become a strong Fullstack Developer.</p>
 
                         <button class="btn-cssbuttons rounded">
-                            <span>Liên hệ ngay</span>
+                            <span data-translate="contact_me">Contact Me</span>
                             <span class="material-symbols-outlined">
                                 arrow_outward
                             </span>
@@ -80,14 +71,6 @@
                                 </li>
                             </ul>
                         </button>
-
-
-
-
-
-
-
-
                     </div>
 
                     <div class="col-12 col-md-4  position-relative pt-5">
@@ -109,9 +92,9 @@
                         <div class="p-2 rounded card-custom d-flex align-items-center flex-column">
 
 
-                            <h4 class="fw-bold mb-0 d-flex align-items-center">Nguyễn Đình Kha <img
+                            <h4 class="fw-bold mb-0 d-flex align-items-center">Nguyen Dinh Kha <img
                                     src="assets/photos/tick.png" class="ms-1" style="width: 18px;"></h4>
-                            <p>Web Developer (Laravel & Vue/Nuxt)</p>
+                            <p data-translate="card_job_title">Web Developer (Laravel & Vue/Nuxt)</p>
 
 
                             <div
@@ -151,7 +134,7 @@
                                         distance
                                     </span>
 
-                                    <span>645 Nguyễn Lường Bằng, Đà Nẵng, Việt Nam</span>
+                                    <span data-translate="address">645 Nguyen Luong Bang, Da Nang, Vietnam</span>
                                 </div>
 
 
@@ -200,40 +183,41 @@
 
                         <div class="mt-3">
 
-                            <h3 class="fw-bold">Tôi là một Web Developer – Xây dựng dự án web từ ý tưởng đến triển khai
+                            <h3 class="fw-bold" data-translate="about_me_title">I am a Web Developer – Building web projects from idea to deployment
                             </h3>
 
-                            <p>
-                                Tôi là một Web Developer với định hướng phát triển thành Fullstack Developer. Tôi có kinh nghiệm xây dựng hệ thống quản lý, website chuẩn SEO và tích hợp các giải pháp thanh toán trực tuyến. Tôi luôn tìm cách áp dụng công nghệ hiện đại như Tailwind, Alpine.js, Nuxt, và API-first để tạo ra những sản phẩm linh hoạt, dễ mở rộng và bền vững.
+                            <p data-translate="intro_text">
+                                As a recent web developer graduate, I have a great passion for building modern and effective web applications. With a fast-learning ability, I am always ready to learn and apply new technologies to develop myself and create quality products. My goal is to become a strong Fullstack Developer.
                             </p>
 
-                            <div class="rounded shadow-sm bg-body-secondary p-2 ">
-                                <div class="row ">
-                                    <div class="col-12 col-md-4 text-center">
-                                        <h1 class=" mb-0">
-                                            <span class="purecounter" data-purecounter-start="0"
-                                                data-purecounter-end="5" data-purecounter-duration="2"></span>
-                                            <span>+</span>
-                                        </h1>
-                                        <span class="text-secondary">Dự án đã hoàn thành</span>
+                            <div class="rounded shadow-sm bg-body-secondary p-3">
+                                <div class="row">
+                                    <div class="col-12 col-md-4 mb-3 mb-md-0 text-center">
+                                        <div class="p-3 bg-white rounded shadow-sm h-100">
+                                            <span class="material-symbols-outlined fs-1 text-primary">
+                                                layers
+                                            </span>
+                                            <h5 class="fw-bold mt-2" data-translate="strength_1_title">Fullstack Development</h5>
+                                            <p class="fs-12px text-secondary mb-0" data-translate="strength_1_desc">Experience with Laravel & Vue/Nuxt to build complete applications.</p>
+                                        </div>
                                     </div>
-
-                                    <div class="col-12 col-md-4 text-center">
-                                        <h1 class=" mb-0">
-                                            <span class="purecounter" data-purecounter-start="0"
-                                                data-purecounter-end="2" data-purecounter-duration="2"></span>
-                                            <span>+</span>
-                                        </h1>
-                                        <span class="text-secondary">Năm kinh nghiệm</span>
+                                    <div class="col-12 col-md-4 mb-3 mb-md-0 text-center">
+                                        <div class="p-3 bg-white rounded shadow-sm h-100">
+                                            <span class="material-symbols-outlined fs-1 text-success">
+                                                speed
+                                            </span>
+                                            <h5 class="fw-bold mt-2" data-translate="strength_2_title">Optimization</h5>
+                                            <p class="fs-12px text-secondary mb-0" data-translate="strength_2_desc">Focused on building fast, smooth, and user-friendly websites.</p>
+                                        </div>
                                     </div>
-
                                     <div class="col-12 col-md-4 text-center">
-                                        <h1 class=" mb-0">
-                                            <span class="purecounter" data-purecounter-start="0"
-                                                data-purecounter-end="90" data-purecounter-duration="2"></span>
-                                            <span>%</span>
-                                        </h1>
-                                        <span class="text-secondary">Khách hàng hài lòng</span>
+                                        <div class="p-3 bg-white rounded shadow-sm h-100">
+                                            <span class="material-symbols-outlined fs-1 text-warning">
+                                                lightbulb
+                                            </span>
+                                            <h5 class="fw-bold mt-2" data-translate="strength_3_title">Creative Solutions</h5>
+                                            <p class="fs-12px text-secondary mb-0" data-translate="strength_3_desc">Applying new technologies to solve problems effectively.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -244,29 +228,30 @@
 
                         <div class="row mt-3">
                             <div class="col-12 col-md-6">
-                                <p class="text-secondary mb-0">Chuyên môn</p>
+                                <p class="text-secondary mb-0" data-translate="specialty">Specialty</p>
                                 <h6 class="fw-bold">Web Developer (Laravel & Vue/Nuxt)</h6>
                             </div>
                             <div class="col-12 col-md-6">
-                                <p class="text-secondary mb-0">Mức độ kinh nghiệm</p>
-                                <h6 class="fw-bold">~2 năm</h6>
+                                <p class="text-secondary mb-0" data-translate="experience_level">Experience Level</p>
+                                <h6 class="fw-bold" data-translate="experience_years">~2 years</h6>
                             </div>
 
                             <div class="col-12 col-md-6">
-                                <p class="text-secondary mb-0">Giáo dục</p>
-                                <h6 class="fw-bold">Lập trình Web - CĐ FPT Polytechnic</h6>
+                                <p class="text-secondary mb-0" data-translate="education">Education</p>
+                                <h6 class="fw-bold" data-translate="education_major">Web Programming - FPT Polytechnic College</h6>
                             </div>
 
                             <div class="col-12 col-md-6">
-                                <p class="text-secondary mb-0">Ngôn ngữ</p>
-                                <h6 class="fw-bold">Tiếng Việt, tiếng Anh</h6>
+                                <p class="text-secondary mb-0" data-translate="languages">Languages</p>
+                                <h6 class="fw-bold" data-translate="languages_list">Vietnamese, English</h6>
                             </div>
 
                         </div>
 
                         <a href="https://drive.google.com/uc?export=download&id=1mmTZXXl9nq4-KeEfUjCBxPOV8yNqQ3wG" target="_blank" class="text-decoration-none">
-                            <button class="btn-layout mt-3 mb-5">Tải xuống sơ yếu lý lịch
-                                <span class="material-symbols-outlined">
+                            <button class="btn-layout mt-3 mb-5">
+                                <span>Download </span>
+                                <span class="material-symbols-outlined btn-layout-icon">
                                     download
                                 </span> 
                             </button>
@@ -280,77 +265,7 @@
         </section>
 
 
-        <section class="mt-3 bg-black py-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6 col-md-3 mb-2 mb-md-0">
-                        <div class="bg-glass rounded p-2 text-light py-4 hover-photo-card eye-glass-hover ">
-                            <div class="d-flex flex-column align-items-center">
-                                <div
-                                    class="rounded-circle text-light p-3 bg-glass-light d-flex align-items-center photo  ">
-                                    <span class="material-symbols-outlined fs-4">
-                                        ar_on_you
-                                    </span>
-                                </div>
-
-                                <h2 class="fw-bold">113</h2>
-                                <span>Khách hàng hài lòng</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-md-3 mb-2 mb-md-0">
-                        <div class="bg-glass rounded p-2 text-light py-4 hover-photo-card eye-glass-hover">
-                            <div class="d-flex flex-column align-items-center">
-                                <div
-                                    class="rounded-circle text-primary p-3 bg-glass-primary d-flex align-items-center photo  ">
-                                    <span class="material-symbols-outlined fs-4">
-                                        folder_code
-                                    </span>
-                                </div>
-
-                                <h2 class="fw-bold">62</h2>
-                                <span>Dự án</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-md-3 mb-2 mb-md-0">
-                        <div class="bg-glass rounded p-2 text-light py-4 hover-photo-card eye-glass-hover">
-                            <div class="d-flex flex-column align-items-center">
-                                <div
-                                    class="rounded-circle text-warning p-3 bg-glass-warning d-flex align-items-center photo  ">
-                                    <span class="material-symbols-outlined fs-4">
-                                        contact_phone
-                                    </span>
-                                </div>
-
-                                <h2 class="fw-bold">1012</h2>
-                                <span>Giờ hỗ trợ</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-md-3 mb-2 mb-md-0">
-                        <div class="bg-glass rounded p-2 text-light py-4 hover-photo-card eye-glass-hover">
-                            <div class="d-flex flex-column align-items-center">
-                                <div
-                                    class="rounded-circle text-success p-3 bg-glass-success d-flex align-items-center photo  ">
-                                    <span class="material-symbols-outlined fs-4">
-                                        supervised_user_circle
-                                    </span>
-                                </div>
-
-                                <h2 class="fw-bold">3</h2>
-                                <span>Người làm chăm chỉ</span>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </section>
+        
 
 
 
@@ -359,8 +274,8 @@
 
             <div class="container">
                 <div class="text-center">
-                    <h3 class="fw-bold section-title text-center">Kĩ năng</h3>
-                    <p>Tổng hợp các công nghệ và kiến thức tôi sử dụng trong quá trình phát triển web.</p>
+                    <h3 class="fw-bold section-title text-center" data-translate="skills_title">Skills</h3>
+                    <p data-translate="skills_intro">A summary of the technologies and knowledge I use in web development.</p>
                 </div>
 
                 <div class="row">
@@ -369,15 +284,15 @@
                             <h4 class="underline-left mb-4">Frontend</h4>
                             <div class="d-flex justify-content-between mb-2">
                                 <h6 class="mb-0">HTML/CSS/Tailwind</h6>
-                                <span class="text-secondary fw-bold">Thành thạo</span>
+                                <span class="text-secondary fw-bold" data-translate="proficient">Proficient</span>
                             </div>
                             <div class="d-flex justify-content-between mb-2">
                                 <h6 class="mb-0">JavaScript / Alpine.js</h6>
-                                <span class="text-secondary fw-bold">Kinh nghiệm</span>
+                                <span class="text-secondary fw-bold" data-translate="experienced">Experienced</span>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <h6 class="mb-0">Vue / Nuxt</h6>
-                                <span class="text-secondary fw-bold">Kinh nghiệm</span>
+                                <span class="text-secondary fw-bold" data-translate="experienced">Experienced</span>
                             </div>
                         </div>
                     </div>
@@ -386,11 +301,11 @@
                             <h4 class="underline-left mb-4">Backend</h4>
                             <div class="d-flex justify-content-between mb-2">
                                 <h6 class="mb-0">PHP / Laravel</h6>
-                                <span class="text-secondary fw-bold">Thành thạo</span>
+                                <span class="text-secondary fw-bold" data-translate="proficient">Proficient</span>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <h6 class="mb-0">RESTful API</h6>
-                                <span class="text-secondary fw-bold">Kinh nghiệm</span>
+                                <span class="text-secondary fw-bold" data-translate="experienced">Experienced</span>
                             </div>
                         </div>
                     </div>
@@ -399,20 +314,20 @@
                             <h4 class="underline-left mb-4">Database</h4>
                             <div class="d-flex justify-content-between">
                                 <h6 class="mb-0">MySQL</h6>
-                                <span class="text-secondary fw-bold">Thành thạo</span>
+                                <span class="text-secondary fw-bold" data-translate="proficient">Proficient</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 mb-3">
                         <div class="rounded shadow p-3 bg-body-secondary h-100">
-                            <h4 class="underline-left mb-4">Khác</h4>
+                            <h4 class="underline-left mb-4" data-translate="others">Others</h4>
                             <div class="d-flex justify-content-between mb-2">
                                 <h6 class="mb-0">Git / GitHub</h6>
-                                <span class="text-secondary fw-bold">Kinh nghiệm</span>
+                                <span class="text-secondary fw-bold" data-translate="experienced">Experienced</span>
                             </div>
                             <div class="d-flex justify-content-between">
-                                <h6 class="mb-0">UI/UX cơ bản</h6>
-                                <span class="text-secondary fw-bold">Cơ bản</span>
+                                <h6 class="mb-0">UI/UX</h6>
+                                <span class="text-secondary fw-bold" data-translate="basic">Basic</span>
                             </div>
                         </div>
                     </div>
@@ -423,8 +338,8 @@
         <section class="mt-4">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="fw-bold section-title text-center">Resume</h3>
-                    <p>Hành trình phát triển nghề nghiệp và những kinh nghiệm tôi đã tích lũy.</p>
+                    <h3 class="fw-bold section-title text-center" data-translate="resume_title">Resume</h3>
+                    <p data-translate="resume_intro">My career development journey and the experience I have accumulated.</p>
                 </div>
 
                 <div class="row">
@@ -435,38 +350,38 @@
                                     <img src="assets/photos/me-2.jpg" style="width: 180px;" class="rounded ">
                                 </div>
                             </div>
-                            <h4 class="fw-bold">Tóm tắt chuyên môn</h4>
-                            <p>Tôi là một Web Developer với định hướng phát triển thành Fullstack Developer. Tôi có kinh nghiệm xây dựng hệ thống quản lý, website chuẩn SEO và tích hợp các giải pháp thanh toán trực tuyến.
+                            <h4 class="fw-bold" data-translate="prof_summary">Professional Summary</h4>
+                            <p data-translate="intro_text">As a recent web developer graduate, I have a great passion for building modern and effective web applications. With a fast-learning ability, I am always ready to learn and apply new technologies to develop myself and create quality products. My goal is to become a strong Fullstack Developer.
 
                             </p>
 
-                            <h4 class="fw-bold">Thông tin liên hệ</h4>
+                            <h4 class="fw-bold" data-translate="contact_info">Contact Information</h4>
 
-                            <p class="mb-2"><i class="fa-solid fa-location-dot" style="width: 30px;"></i>645 Nguyễn Lường Bằng, Đà Nẵng, Việt Nam</p>
+                            <p class="mb-2"><i class="fa-solid fa-location-dot" style="width: 30px;"></i><span data-translate="address">645 Nguyen Luong Bang, Da Nang, Vietnam</span></p>
                             <p class="mb-2"><i class="fa-solid fa-envelope"
                                     style="width: 30px;"></i>khappp4@gmail.com</p>
                             <p class=""><i class="fa-solid fa-phone" style="width: 30px;"></i>0386550651</p>
 
-                            <h4 class="fw-bold">Kĩ năng chuyên môn</h4>
+                            <h4 class="fw-bold" data-translate="prof_skills">Professional Skills</h4>
 
                             <div class="d-flex justify-content-between mb-2">
-                                <p class="mb-0">Lập trình web</p>
-                                <p class="mb-0 fw-bold text-secondary">Thành thạo</p>
+                                <p class="mb-0" data-translate="web_programming">Web Programming</p>
+                                <p class="mb-0 fw-bold text-secondary" data-translate="proficient">Proficient</p>
                             </div>
 
                             <div class="d-flex justify-content-between mb-2">
-                                <p class="mb-0">UI/UX cơ bản</p>
-                                <p class="mb-0 fw-bold text-secondary">Cơ bản</p>
+                                <p class="mb-0">UI/UX</p>
+                                <p class="mb-0 fw-bold text-secondary" data-translate="basic">Basic</p>
                             </div>
 
                             <div class="d-flex justify-content-between mb-2">
                                 <p class="mb-0">Database</p>
-                                <p class="mb-0 fw-bold text-secondary">Thành thạo</p>
+                                <p class="mb-0 fw-bold text-secondary" data-translate="proficient">Proficient</p>
                             </div>
 
                             <div class="d-flex justify-content-between">
                                 <p class="mb-0">Git / GitHub</p>
-                                <p class="mb-0 fw-bold text-secondary">Kinh nghiệm</p>
+                                <p class="mb-0 fw-bold text-secondary" data-translate="experienced">Experienced</p>
                             </div>
 
 
@@ -475,26 +390,21 @@
                     <div class="col-12 col-md-8">
                         <h4 class="fw-bold d-flex align-items-center"><span class="material-symbols-outlined me-1">
                                 cases
-                            </span> Kinh nghiệm chuyên môn</h4>
+                            </span> <span data-translate="prof_experience">Professional Experience</span></h4>
 
-                        <div class="resume-item mb-3">
-                            <h5 class="fw-bold">Đồ án tốt nghiệp – GymTech</h5>
-                            <h6 class="fw-semibold">2024 – 2025</h6>
-                            <p><i class="fa-solid fa-building me-1"></i>Fullstack Developer (Laravel + Nuxt)</p>
-
-                            <ul class="p-0 d-block ps-4">
-                                <li>Xây dựng hệ thống quản lý hội viên phòng gym (Laravel)</li>
-                                <li>Tích hợp thanh toán online (VNPAY)</li>
-                                <li>Phát triển website SEO giới thiệu thương hiệu bằng Nuxt 3</li>
-                                <li>Xây dựng chức năng đăng ký gói tập, đăng nhập Magic Link, tư vấn AI</li>
-                            </ul>
-                        </div>
+                        
 
                         <div class="resume-item mb-3">
                             <h5 class="fw-bold">Gym Management & SEO Website</h5>
                             <h6 class="fw-semibold">05/2025 - 08/2025</h6>
-                            <p><i class="fa-solid fa-user me-1"></i>Personal Project | Full-stack developer</p>
-                            <p><strong>Description:</strong> Developed a management system for gym members, integrated with an SEO-optimized website introducing services and enabling online membership registration.</p>
+                            <p><i class="fa-solid fa-user me-1"></i><span data-translate="personal_project">Personal Project</span> | Full-stack developer</p>
+                            <p><strong>Description:</strong> Developed a comprehensive management system for a gym, focusing on an operational admin panel and an SEO-optimized website for members. The system allows for membership registration and efficient member management.</p>
+                            <p><strong>Key Features:</strong></p>
+                            <ul class="p-0 d-block ps-4">
+                                <li>Online payment integration for membership packages.</li>
+                                <li>RFID card check-in system for members.</li>
+                                <li>Hardware integration with an RFID card reader.</li>
+                            </ul>
                             <p><strong>Technologies:</strong></p>
                             <ul class="p-0 d-block ps-4">
                                 <li><strong>Frontend:</strong> Nuxt 3, Vue 3, Tailwind CSS</li>
@@ -502,14 +412,14 @@
                             </ul>
                             <p><strong>Deployment:</strong> Admin panel & SEO website</p>
                             <p><strong>Source code:</strong> <a href="https://github.com/KhaLuQN/alphagym" target="_blank">https://github.com/KhaLuQN/alphagym</a></p>
-                            <p><strong>Demo:</strong> <a href="https://alphagym.site/" target="_blank">https://alphagym.site/</a></p>
+                            <p><strong>Demo:</strong> <a href="https://alphagym.site/" target="_blank">https://alphagym.site/</a> | <a href="https://admin.alphagym.site/" target="_blank">Admin Site</a></p>
                         </div>
 
                         <div class="resume-item mb-3">
                             <h5 class="fw-bold">Student Exam Preparation Website</h5>
                             <h6 class="fw-semibold">06/2024 - 08/2024</h6>
-                            <p><i class="fa-solid fa-user me-1"></i>Personal Project | Full-stack developer</p>
-                            <p><strong>Description:</strong> Built a web application that allows students to create personal question banks and practice with multiple-choice quizzes available on the website.</p>
+                            <p><i class="fa-solid fa-user me-1"></i><span data-translate="personal_project">Personal Project</span> | Full-stack developer</p>
+                            <p><strong data-translate="description">Description:</strong> <span data-translate="exam_prep_desc">Built a web application that allows students to create personal question banks and practice with multiple-choice quizzes available on the website.</span></p>
                             <p><strong>Technologies:</strong></p>
                             <ul class="p-0 d-block ps-4">
                                 <li><strong>Frontend:</strong> HTML, CSS, JavaScript, Bootstrap 5</li>
@@ -518,17 +428,42 @@
                              <p><strong>Source code:</strong> <a href="https://github.com/KhaLuQN/quiz" target="_blank">https://github.com/KhaLuQN/quiz</a></p>
                         </div>
 
-                        <h4 class="fw-bold d-flex align-items-center"><span class="material-symbols-outlined me-1">
-                                school
-                            </span>Học vấn</h4>
+                        <div class="resume-item mb-3">
+                            <h5 class="fw-bold">FruitStore - Online Fruit Store</h5>
+                            <h6 class="fw-semibold" data-translate="personal_project">Personal Project</h6>
+                            <p><i class="fa-solid fa-user me-1"></i>Personal Project | Full-stack developer</p>
+                            <p><strong data-translate="description">Description:</strong> <span data-translate="fruitstore_desc">Built an e-commerce website to sell fruits, including features for product management, shopping cart, and ordering.</span></p>
+                            <p><strong data-translate="technologies">Technologies:</strong></p>
+                            <ul class="p-0 d-block ps-4">
+                                <li><strong>Backend:</strong> Laravel</li>
+                                <li><strong>Frontend:</strong> Bootstrap, HTML, CSS, JS</li>
+                            </ul>
+                        </div>
 
                         <div class="resume-item mb-3">
-                            <h5 class="fw-bold">Lập trình Web</h5>
+                            <h5 class="fw-bold">Automated Job Application Email System</h5>
+                            <h6 class="fw-semibold" data-translate="personal_project">Personal Project</h6>
+                            <p><i class="fa-solid fa-user me-1"></i>Personal Project</p>
+                            <p><strong data-translate="description">Description:</strong> <span data-translate="auto_email_desc">A low-code system that automates the job application email process. Users simply input job posting information, and the system composes and sends the email.</span></p>
+                            <p><strong data-translate="technologies">Technologies:</strong></p>
+                            <ul class="p-0 d-block ps-4">
+                                <li><strong>Frontend:</strong> Web Form (HTML/JS)</li>
+                                <li><strong>Workflow Engine:</strong> n8n</li>
+                                <li><strong data-translate="storage_log">Storage/Log:</strong> Google Sheet / DB</li>
+                            </ul>
+                        </div>
+
+                        <h4 class="fw-bold d-flex align-items-center"><span class="material-symbols-outlined me-1">
+                                school
+                            </span><span data-translate="education_title">Education</span></h4>
+
+                        <div class="resume-item mb-3">
+                            <h5 class="fw-bold" data-translate="education_major_resume">Web Programming</h5>
                             <h6 class="fw-semibold">2021 – 2025</h6>
-                            <p><i class="fa-solid fa-building me-1"></i>Cao đẳng FPT Polytechnic.</p>
+                            <p><i class="fa-solid fa-building me-1"></i><span data-translate="education_school">FPT Polytechnic College.</span></p>
 
                             <ul class="p-0 d-block ps-4">
-                                <li>Vừa tốt nghiệp.</li>
+                                <li data-translate="education_status">Recently graduated.</li>
                             </ul>
                         </div>
 
@@ -543,23 +478,23 @@
         <section class="mt-4">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="fw-bold section-title text-center">Liên hệ</h3>
-                    <p>Liên hệ với tôi để hợp tác, đặt làm website hoặc trao đổi công việc lập trình.</p>
+                    <h3 class="fw-bold section-title text-center" data-translate="contact_section_title">Contact</h3>
+                    <p data-translate="contact_section_intro">Contact me for collaboration, website development services, or to discuss programming work.</p>
                 </div>
 
                 <div class="row">
                     <div class="col-12 col-md-5">
                         <div class="bg-black p-3 rounded shadow text-white">
-                            <h3>Thông tin liên hệ</h3>
-                            <p class="text-secondary">Thông tin liên hệ để làm việc, tư vấn hoặc đặt dịch vụ thiết kế web.</p>
+                            <h3 data-translate="contact_info_box_title">Contact Information</h3>
+                            <p class="text-secondary" data-translate="contact_info_box_desc">Contact information for work, consultation, or web design services.</p>
 
                             <div class="d-flex align-items-start mb-3">
                                 <span class="material-symbols-outlined p-2 bg-glass-light rounded-circle me-3">
 globe_location_pin
 </span>
 <div>
-    <h5 class="fw-bold">Địa chỉ của chúng tôi</h5>
-    <p >645 Nguyễn Lường Bằng, Đà Nẵng, Việt Nam</p>
+    <h5 class="fw-bold" data-translate="our_address">Our Address</h5>
+    <p data-translate="address">645 Nguyen Luong Bang, Da Nang, Vietnam</p>
 </div>
                             </div>
 
@@ -568,7 +503,7 @@ globe_location_pin
 phone_enabled
 </span>
 <div>
-    <h5 class="fw-bold">Số điện thoại</h5>
+    <h5 class="fw-bold" data-translate="phone_number">Phone Number</h5>
     <p>0386550651</p>
 </div>
                             </div>
@@ -578,7 +513,7 @@ phone_enabled
 globe_location_pin
 </span>
 <div>
-    <h5 class="fw-bold">Địa chỉ Email</h5>
+    <h5 class="fw-bold" data-translate="email_address">Email Address</h5>
     <p class="mb-0">khappp4@gmail.com</p>
 </div>
                             </div>
@@ -588,39 +523,41 @@ globe_location_pin
 
                     <div class="col-12 col-md-7">
                        <div class="bg-glass-light p-3 rounded shadow">
-                           <h3>Hỗ trợ</h3>
-                            <p class="text-secondary">Điền form bên dưới để nhận hỗ trợ nhanh chóng về dịch vụ lập trình web.</p>
+                           <h3 data-translate="support_title">Support</h3>
+                            <p class="text-secondary" data-translate="support_desc">Fill out the form below to receive prompt support for web programming services.</p>
                             <form >
                                 <div class="row">
 <div class="col-12 col-md-6">
  <div class="form-floating mb-3 ">
-  <input type="text" class="form-control" id="floatingInput" placeholder="Nguyễn văn A" required>
-  <label for="floatingInput">Tên của bạn</label>
+  <input type="text" class="form-control" id="floatingInputName" placeholder="Your Name" required>
+  <label for="floatingInputName" data-translate="your_name">Your Name</label>
 </div>
 </div>
                                <div class="col-12 col-md-6">
  <div class="form-floating mb-3">
-  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-  <label for="floatingInput">Email address</label>
+  <input type="email" class="form-control" id="floatingInputEmail" placeholder="name@example.com" required>
+  <label for="floatingInputEmail">Email address</label>
 </div>
                                </div>
 
                                <div class="col-12">
  <div class="form-floating mb-3 ">
-  <input type="text" class="form-control" id="floatingInput" placeholder="Lập trình web..." required>
-  <label for="floatingInput">Tiêu đề</label>
+  <input type="text" class="form-control" id="floatingInputSubject" placeholder="Subject" required>
+  <label for="floatingInputSubject" data-translate="subject">Subject</label>
 </div>
 </div>
 
 <div class="col-12">
 <div class="form-floating">
-  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
-  <label for="floatingTextarea2" >Nội dung</label>
+  <textarea class="form-control" placeholder="Message" id="floatingTextarea2" style="height: 100px" required></textarea>
+  <label for="floatingTextarea2" data-translate="message">Message</label>
 </div>
 </div>
 
 <div class="col-12 mt-3">
-<button class="btn btn-primary w-100">Gửi</button>
+    <button class="btn btn-primary w-100">
+        <span data-translate="send">Send</span>
+    </button>
 </div>
                                 </div>
                             </form>
@@ -634,35 +571,18 @@ globe_location_pin
 
     </main>
 
-    <!-- <section class="menu-element">
+    <section class="menu-element" id="language-switcher">
         <div class="d-flex shadow-sm border bg-black text-light rounded p-1">
-            <a class="p-2 px-3 menu-element-item rounded d-flex align-items-center justify-content-center text-decoration-none"
-                href="#" data-tooltip="Trang chủ"><span class="material-symbols-outlined">
-                    home_app_logo
-                </span></a>
-
-            <a class="p-2 px-3 menu-element-item rounded d-flex align-items-center justify-content-center text-decoration-none"
-                href="#" data-tooltip="Cửa hàng & dịch vụ"><span class="material-symbols-outlined">
-                    storefront
-                </span></a>
-
-            <a class="p-2 px-3 menu-element-item rounded d-flex align-items-center justify-content-center text-decoration-none"
-                href="#" data-tooltip="Blog"><span class="material-symbols-outlined">
-                    web_stories
-                </span></a>
-
-            <a class="p-2 px-3 menu-element-item rounded d-flex align-items-center justify-content-center text-decoration-none"
-                href="#" data-tooltip="Account"> <span class="material-symbols-outlined">
-                    account_box
-                </span></a>
+            <button style="border: none; background: transparent;" class="p-2 px-3 menu-element-item rounded d-flex align-items-center justify-content-center text-decoration-none" data-lang="en" data-tooltip="English">EN</button>
+            <button style="border: none; background: transparent;" class="p-2 px-3 menu-element-item rounded d-flex align-items-center justify-content-center text-decoration-none" data-lang="vi" data-tooltip="Tiếng Việt">VI</button>
         </div>
-    </section> -->
+    </section>
 
     <footer class="mt-4">
 
         <div class="container py-5 border-top text-center">
-            <p class="mb-0">© Copyright <span class="fw-semibold">Nguyễn Đình Kha</span> All Rights Reserved</p>
-            <p class="fs-12px">Designed By Nguyễn Đình Kha</p>
+            <p class="mb-0"><span data-translate="footer_copyright">© Copyright Nguyen Dinh Kha All Rights Reserved</span></p>
+            <p class="fs-12px"><span data-translate="footer_designed">Designed By Nguyen Dinh Kha</span></p>
         </div>
 
     </footer>
@@ -678,6 +598,8 @@ globe_location_pin
     <script src="assets/js/typewriter.js"></script>
 
     <script src="assets/js/net-canvas.js"></script>
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/language.js"></script>
 
 
     <script>
